@@ -107,12 +107,14 @@ const Index = () => {
             </div>
             <div className="relative animate-slide-up">
               <div className="absolute -inset-4 bg-gradient-to-br from-primary/30 via-secondary/20 to-primary/30 rounded-[2.5rem] blur-2xl opacity-60" />
-              <div className="relative rounded-3xl overflow-hidden border-4 border-background shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent" />
+              <div className="relative rounded-3xl overflow-hidden border-4 border-background shadow-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(14,165,233,0.15),transparent_50%)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(139,92,246,0.15),transparent_50%)]" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent" />
                 <img
                   src="https://cdn.poehali.dev/files/4dfabf2b-4428-4f0c-a9d3-317ba276132e.jpg"
                   alt="Константин Морин"
-                  className="w-full h-full object-cover aspect-square scale-105"
+                  className="relative w-full h-full object-cover aspect-square scale-105 mix-blend-lighten"
                   loading="eager"
                   fetchPriority="high"
                   style={{ imageRendering: '-webkit-optimize-contrast' }}
