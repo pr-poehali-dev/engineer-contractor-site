@@ -10,7 +10,7 @@ const Index = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'services', 'portfolio', 'competencies', 'certificates', 'contacts'];
+      const sections = ['hero', 'about', 'services', 'portfolio', 'competencies', 'contacts'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -65,12 +65,12 @@ const Index = () => {
               <span className="font-bold text-xl">К.С. Морин</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              {['О себе', 'Услуги', 'Портфолио', 'Компетенции', 'Сертификаты', 'Контакты'].map((item, idx) => (
+              {['О себе', 'Услуги', 'Портфолио', 'Компетенции', 'Контакты'].map((item, idx) => (
                 <button
                   key={item}
-                  onClick={() => scrollToSection(['about', 'services', 'portfolio', 'competencies', 'certificates', 'contacts'][idx])}
+                  onClick={() => scrollToSection(['about', 'services', 'portfolio', 'competencies', 'contacts'][idx])}
                   className={`text-sm font-medium transition-colors hover:text-primary ${
-                    activeSection === ['about', 'services', 'portfolio', 'competencies', 'certificates', 'contacts'][idx]
+                    activeSection === ['about', 'services', 'portfolio', 'competencies', 'contacts'][idx]
                       ? 'text-primary'
                       : 'text-muted-foreground'
                   }`}
@@ -237,23 +237,6 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="certificates" className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center space-y-4 mb-12">
-            <h2 className="text-4xl font-bold">Сертификаты</h2>
-            <p className="text-lg text-muted-foreground">Профессиональные квалификации и аккредитации</p>
-          </div>
-          <div className="text-center py-12">
-            <div className="w-20 h-20 rounded-full bg-muted/50 flex items-center justify-center mx-auto mb-6">
-              <Icon name="FileCheck" className="text-muted-foreground" size={40} />
-            </div>
-            <p className="text-xl text-muted-foreground">
-              Информация о сертификатах будет добавлена позже
-            </p>
           </div>
         </div>
       </section>
