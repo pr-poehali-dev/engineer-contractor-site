@@ -62,7 +62,7 @@ const Index = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
               <Icon name="Cpu" className="text-primary" size={28} />
-              <span className="font-bold text-xl font-['Montserrat']">К.С. Морин</span>
+              <span className="font-bold text-xl">К.С. Морин</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               {['О себе', 'Услуги', 'Портфолио', 'Компетенции', 'Сертификаты', 'Контакты'].map((item, idx) => (
@@ -111,7 +111,7 @@ const Index = () => {
                 <img
                   src="https://cdn.poehali.dev/files/4ea1aa8b-3e8d-498a-8651-9df6b14defad.png"
                   alt="Константин Морин"
-                  className="w-full object-cover aspect-square rounded-3xl shadow-2xl border-2 border-primary/10"
+                  className="w-full object-cover aspect-square rounded-3xl shadow-2xl"
                 />
               </div>
             </div>
@@ -290,33 +290,15 @@ const Index = () => {
                   +7 (981) 844-36-77
                 </a>
               </div>
-              <div className="flex items-center space-x-4">
-                <Icon name="Send" className="text-primary" size={24} />
-                <a href="https://t.me/KonstantinMorin" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">
-                  @KonstantinMorin
-                </a>
-              </div>
-              <div className="flex items-center space-x-4">
-                <Icon name="MessageCircle" className="text-primary" size={24} />
-                <a href="https://wa.me/79818443677" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">
-                  WhatsApp +7 (981) 844-36-77
-                </a>
-              </div>
-              <div className="flex items-center space-x-4">
-                <Icon name="AtSign" className="text-primary" size={24} />
-                <a href="https://vk.me/join/your_vk_link" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">
-                  VK +7 (981) 844-36-77
-                </a>
-              </div>
               <Separator />
               <div className="grid grid-cols-2 gap-3">
-                <Button asChild size="lg" variant="outline">
+                <Button asChild size="lg" className="w-full">
                   <a href="https://wa.me/79818443677" target="_blank" rel="noopener noreferrer">
                     <Icon name="MessageCircle" className="mr-2" size={20} />
                     WhatsApp
                   </a>
                 </Button>
-                <Button asChild size="lg" variant="outline">
+                <Button asChild size="lg" variant="outline" className="w-full">
                   <a href="https://t.me/KonstantinMorin" target="_blank" rel="noopener noreferrer">
                     <Icon name="Send" className="mr-2" size={20} />
                     Telegram
