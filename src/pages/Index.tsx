@@ -112,7 +112,10 @@ const Index = () => {
                 <img
                   src="https://cdn.poehali.dev/files/4dfabf2b-4428-4f0c-a9d3-317ba276132e.jpg"
                   alt="Константин Морин"
-                  className="w-full object-cover aspect-square scale-105"
+                  className="w-full h-full object-cover aspect-square scale-105"
+                  loading="eager"
+                  fetchPriority="high"
+                  style={{ imageRendering: '-webkit-optimize-contrast' }}
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-2xl" />
