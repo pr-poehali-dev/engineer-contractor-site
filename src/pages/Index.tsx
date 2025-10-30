@@ -179,7 +179,7 @@ const Index = () => {
             <h2 className="text-4xl font-bold">Портфолио</h2>
             <p className="text-lg text-muted-foreground">Реализованные проекты</p>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <Card className="overflow-hidden group">
               <div className="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                 <Icon name="Building2" size={64} className="text-primary group-hover:scale-110 transition-transform" />
@@ -205,15 +205,6 @@ const Index = () => {
               <CardHeader>
                 <CardTitle>Торговый комплекс</CardTitle>
                 <CardDescription>Системы безопасности и инженерные сети: СВН, АПС, СОУЭ, СКС, ЛВС</CardDescription>
-              </CardHeader>
-            </Card>
-            <Card className="overflow-hidden group">
-              <div className="h-48 bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
-                <Icon name="Home" size={64} className="text-secondary group-hover:scale-110 transition-transform" />
-              </div>
-              <CardHeader>
-                <CardTitle>Жилой комплекс</CardTitle>
-                <CardDescription>Системы безопасности жилого фонда: СКУД, домофония, видеонаблюдение</CardDescription>
               </CardHeader>
             </Card>
           </div>
