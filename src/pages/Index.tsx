@@ -280,19 +280,21 @@ const Index = () => {
               <Separator />
               <div className="flex items-center space-x-4">
                 <Icon name="Mail" className="text-primary" size={24} />
-                <a href="mailto:morin.ks@example.com" className="text-lg hover:text-primary transition-colors">
-                  morin.ks@example.com
+                <a href="mailto:9818443677@mail.ru" className="text-lg hover:text-primary transition-colors">
+                  9818443677@mail.ru
                 </a>
               </div>
               <div className="flex items-center space-x-4">
                 <Icon name="Phone" className="text-primary" size={24} />
-                <a href="tel:+79001234567" className="text-lg hover:text-primary transition-colors">
-                  +7 (900) 123-45-67
+                <a href="tel:+79818443677" className="text-lg hover:text-primary transition-colors">
+                  +7 (981) 844-36-77
                 </a>
               </div>
               <div className="flex items-center space-x-4">
-                <Icon name="MapPin" className="text-primary" size={24} />
-                <span className="text-lg">Москва, Россия</span>
+                <Icon name="Send" className="text-primary" size={24} />
+                <a href="https://t.me/KonstantinMorin" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">
+                  @KonstantinMorin
+                </a>
               </div>
               <Separator />
               <Button className="w-full" size="lg">
