@@ -109,7 +109,7 @@ const Index = () => {
               <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-3xl" />
               <div className="relative">
                 <img
-                  src="https://cdn.poehali.dev/files/4dfabf2b-4428-4f0c-a9d3-317ba276132e.jpg"
+                  src="https://cdn.poehali.dev/files/4ea1aa8b-3e8d-498a-8651-9df6b14defad.png"
                   alt="Константин Морин"
                   className="w-full object-cover aspect-square rounded-3xl shadow-2xl border-2 border-primary/10"
                 />
