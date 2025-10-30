@@ -296,11 +296,33 @@ const Index = () => {
                   @KonstantinMorin
                 </a>
               </div>
+              <div className="flex items-center space-x-4">
+                <Icon name="MessageCircle" className="text-primary" size={24} />
+                <a href="https://wa.me/79818443677" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">
+                  WhatsApp +7 (981) 844-36-77
+                </a>
+              </div>
+              <div className="flex items-center space-x-4">
+                <Icon name="AtSign" className="text-primary" size={24} />
+                <a href="https://vk.me/join/your_vk_link" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">
+                  VK +7 (981) 844-36-77
+                </a>
+              </div>
               <Separator />
-              <Button className="w-full" size="lg">
-                <Icon name="Send" className="mr-2" size={20} />
-                Отправить сообщение
-              </Button>
+              <div className="grid grid-cols-2 gap-3">
+                <Button asChild size="lg" variant="outline">
+                  <a href="https://wa.me/79818443677" target="_blank" rel="noopener noreferrer">
+                    <Icon name="MessageCircle" className="mr-2" size={20} />
+                    WhatsApp
+                  </a>
+                </Button>
+                <Button asChild size="lg" variant="outline">
+                  <a href="https://t.me/KonstantinMorin" target="_blank" rel="noopener noreferrer">
+                    <Icon name="Send" className="mr-2" size={20} />
+                    Telegram
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
