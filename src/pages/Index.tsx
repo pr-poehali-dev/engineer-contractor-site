@@ -108,9 +108,9 @@ const Index = () => {
             <div className="relative animate-slide-up">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl" />
               <img
-                src="https://cdn.poehali.dev/projects/358ba68c-bc5f-478b-8e19-f09d7a3b2971/files/f4e05892-7f5a-4513-aed1-44dffa3cc0a0.jpg"
+                src="https://cdn.poehali.dev/projects/358ba68c-bc5f-478b-8e19-f09d7a3b2971/files/e853da28-d062-4645-9477-8baa91ba90e1.jpg"
                 alt="Константин Морин"
-                className="relative rounded-3xl shadow-2xl w-full object-cover"
+                className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/5]"
               />
             </div>
           </div>
