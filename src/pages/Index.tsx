@@ -106,12 +106,17 @@ const Index = () => {
               </div>
             </div>
             <div className="relative animate-slide-up">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl" />
-              <img
-                src="https://cdn.poehali.dev/files/4dfabf2b-4428-4f0c-a9d3-317ba276132e.jpg"
-                alt="Константин Морин"
-                className="relative rounded-3xl shadow-2xl w-full object-cover aspect-square"
-              />
+              <div className="absolute -inset-4 bg-gradient-to-br from-primary/30 via-secondary/20 to-primary/30 rounded-[2.5rem] blur-2xl opacity-60" />
+              <div className="relative rounded-3xl overflow-hidden border-4 border-background shadow-2xl">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent" />
+                <img
+                  src="https://cdn.poehali.dev/files/4dfabf2b-4428-4f0c-a9d3-317ba276132e.jpg"
+                  alt="Константин Морин"
+                  className="w-full object-cover aspect-square scale-105"
+                />
+              </div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-2xl" />
+              <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-2xl" />
             </div>
           </div>
         </div>
