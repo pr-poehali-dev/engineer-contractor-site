@@ -247,33 +247,13 @@ const Index = () => {
             <h2 className="text-4xl font-bold">Сертификаты</h2>
             <p className="text-lg text-muted-foreground">Профессиональные квалификации и аккредитации</p>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-12">
-            <Card className="overflow-hidden hover:shadow-xl transition-shadow group cursor-pointer">
-              <div className="aspect-[3/4] bg-gradient-to-br from-primary/5 to-secondary/5 relative">
-                <img 
-                  src="https://cdn.poehali.dev/files/a96e7752-62b4-46f3-b2cf-379782d21bde.jpg"
-                  alt="Диплом о профессиональной переподготовке"
-                  className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle className="text-center">Диплом о профессиональной переподготовке</CardTitle>
-                <CardDescription className="text-center">
-                  Государственная аккредитация № 3342/25
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card className="text-center hover:shadow-lg transition-shadow">
-              <CardContent className="p-8 space-y-4 flex flex-col justify-center h-full">
-                <div className="w-20 h-20 rounded-full bg-muted flex items-center justify-center mx-auto">
-                  <Icon name="XCircle" className="text-muted-foreground" size={40} />
-                </div>
-                <div>
-                  <p className="font-semibold text-lg mb-2">Допуск СРО</p>
-                  <p className="text-muted-foreground">В процессе оформления</p>
-                </div>
-              </CardContent>
-            </Card>
+          <div className="text-center py-12">
+            <div className="w-20 h-20 rounded-full bg-muted/50 flex items-center justify-center mx-auto mb-6">
+              <Icon name="FileCheck" className="text-muted-foreground" size={40} />
+            </div>
+            <p className="text-xl text-muted-foreground">
+              Информация о сертификатах будет добавлена позже
+            </p>
           </div>
         </div>
       </section>
